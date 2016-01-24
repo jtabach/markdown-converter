@@ -5,6 +5,7 @@
 
 body {
 	background: url('../img/cream.png');
+	min-width: 600px;
 }
 
 .title h1 {
@@ -50,13 +51,17 @@ body {
 }
 
 .examples-body hr {
-	border: 1px solid #b3b3bf;
+	border: 1px solid #999999;
 }
 
 .examples-title h3 {
 	color: #666666;
 }
 
+.examples-title p {
+	color: #333333;
+}
+
 hr {
-	border: 1px solid #737373;
+	border: 1px solid #666666;
 }
