@@ -1,6 +1,7 @@
 'use strict';
 
 $(document).ready(function() {
+	$('textarea').focus();
 	$('textarea').keyup(function() {
 		if (this.timeoutId)
 			window.clearTimeout(this.timeoutId);

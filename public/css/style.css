@@ -34,6 +34,7 @@ body {
 	padding: 10px 20px;
 	border-color: #737373;
 	background: #fcfcfc;
+	resize: none;
 }
 
 .markdown-body textarea:focus {
@@ -46,8 +47,12 @@ body {
 	border: 1px solid #737373;
 	padding: 10px 20px;
 	word-wrap: break-word;
-	color: #b3b3b3;
+	color: #333;
 	background: #fcfcfc;
+}
+
+.text-body span {
+	color: #aaa;
 }
 
 .examples-body hr {
@@ -58,7 +63,7 @@ body {
 	color: #666666;
 }
 
-.examples-title p {
+.examples-body p {
 	color: #333333;
 }
 
