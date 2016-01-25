@@ -7,13 +7,18 @@ var fs = require('fs');
 
 router.get('/', function(req, res) {
 
-	var colors = ['blue', 'red', 'green'];
+	var colors = ['blue', 'red', 'green', 'burgandy'];
+	var names = [
+		{name: 'Jon', gender: 'm'},
+		{name: 'Doe', gender: 'f'}
+	]
 
 
 	res.render('index', {
 		title: 'Whoa, Handlebars!!!',
 		timestamp: Date.now(),
-		colors: colors
+		colors: colors,
+		names: names
 	});
 })
 
